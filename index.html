@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Bankey Bihari PVC Panel &amp; Decor | Artisanal Wall &amp; Ceiling Interiors</title>
+    <meta name="description" content="Transform your home with cozy, waterproof, termite-proof PVC wall panels, fluted WPC louvers, UV marble sheets, and luxury ceiling rafters by Shree Bankey Bihari PVC Panel & Decor.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                    },
+                    colors: {
+                        linen: '#FAF6F0',
+                        sand: '#F3ECE1',
+                        sandDark: '#E6DDD0',
+                        espresso: '#2C221E',
+                        espressoLight: '#5A4A42',
+                        terracotta: '#B86B43',
+                        terracottaDark: '#9A5532',
+                        sage: '#6E7F6B',
+                        gold: '#C59B5F',
+                        whatsapp: '#25D366',
+                        whatsappDark: '#1EBE5A'
+                    },
+                    boxShadow: {
+                        'cozy': '0 10px 30px -5px rgba(44, 34, 30, 0.07)',
+                        'cozy-lg': '0 20px 45px -10px rgba(44, 34, 30, 0.12)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom subtle animations and scrollbar */
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.7; }
+            70% { transform: scale(1.3); opacity: 0; }
+            100% { transform: scale(1.3); opacity: 0; }
+        }
+        .wa-pulse::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 9999px;
+            background-color: #25D366;
+            z-index: -1;
+            animation: pulse-ring 2.2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+        }
+        .glass-header {
+            background: rgba(250, 246, 240, 0.88);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+        .card-hover {
+            transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-linen text-espresso font-sans antialiased selection:bg-terracotta selection:text-white overflow-x-hidden">
+
+    <!-- ==================== 1. STICKY GLASSMORPHIC HEADER ==================== -->
+    <header class="sticky top-0 z-50 glass-header border-b border-sandDark/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Brand Logo & Name -->
+                <a href="#home" class="flex items-center space-x-3 group">
+                    <div class="w-11 h-11 rounded-2xl bg-espresso flex items-center justify-center border border-gold/40 shadow-cozy group-hover:bg-terracotta transition-colors duration-300">
+                        <!-- Custom Architectural Fluted Panel SVG Emblem -->
+                        <svg class="w-6 h-6 text-gold group-hover:text-white transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M4 3v18M8 3v18M12 3v18M16 3v18M20 3v18" stroke-linecap="round"/>
+                            <rect x="2" y="2" width="20" height="20" rx="3" stroke-opacity="0.4"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-serif text-xl sm:text-2xl font-bold tracking-tight text-espresso leading-none">
+                            Shree Bankey Bihari
+                        </span>
+                        <span class="block text-[11px] sm:text-xs font-medium tracking-widest uppercase text-terracotta mt-1">
+                            PVC Panel &amp; Decor &bull; Artisanal Interiors
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-espressoLight">
+                    <a href="#collections" class="hover:text-terracotta transition-colors">Collections</a>
+                    <a href="#estimator" class="hover:text-terracotta transition-colors">Cost Estimator</a>
+                    <a href="#why-us" class="hover:text-terracotta transition-colors">Why Us</a>
+                    <a href="#gallery" class="hover:text-terracotta transition-colors">Project Gallery</a>
+                    <a href="#contact" class="hover:text-terracotta transition-colors">Contact</a>
+                </nav>
+
+                <!-- Action Buttons -->
+                <div class="flex items-center space-x-3">
+                    <button onclick="openWhatsAppGeneral()" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full bg-espresso hover:bg-terracotta text-linen text-sm font-semibold shadow-cozy transition-all duration-300 cursor-pointer">
+                        <i class="fa-brands fa-whatsapp text-whatsapp text-base mr-2"></i>
+                        <span>Chat on WhatsApp</span>
+                    </button>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button id="mobile-menu-toggle" aria-label="Open Navigation" class="lg:hidden p-2.5 rounded-2xl bg-sand text-espresso hover:bg-sandDark transition">
+                        <i id="mobile-menu-icon" class="fa-solid fa-bars text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-linen border-b border-sandDark px-4 pt-3 pb-6 space-y-2 shadow-cozy-lg">
+            <a href="#collections" class="mobile-nav-link block px-4 py-3 rounded-2xl text-base font-medium text-espresso hover:bg-sand">Collections</a>
+            <a href="#estimator" class="mobile-nav-link block px-4 py-3 rounded-2xl text-base font-medium text-espresso hover:bg-sand">Cost Estimator</a>
+            <a href="#why-us" class="mobile-nav-link block px-4 py-3 rounded-2xl text-base font-medium text-espresso hover:bg-sand">Why Choose Us</a>
+            <a href="#gallery" class="mobile-nav-link block px-4 py-3 rounded-2xl text-base font-medium text-espresso hover:bg-sand">Project Gallery</a>
+            <a href="#contact" class="mobile-nav-link block px-4 py-3 rounded-2xl text-base font-medium text-espresso hover:bg-sand">Direct Query &amp; Visit</a>
+            <div class="pt-2">
+                <button onclick="openWhatsAppGeneral()" class="w-full flex items-center justify-center px-5 py-3.5 rounded-2xl bg-whatsapp hover:bg-whatsappDark text-white font-semibold shadow-md transition">
+                    <i class="fa-brands fa-whatsapp text-xl mr-2"></i>
+                    Chat on WhatsApp (+91 9012747714)
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== 2. HERO SECTION ==================== -->
+    <section id="home" class="relative pt-10 pb-16 sm:pt-16 sm:pb-24 lg:pt-20 lg:pb-28 overflow-hidden">
+        <!-- Warm Decorative Glows -->
+        <div class="absolute top-0 right-0 -translate-y-1/4 translate-x-1/4 w-[500px] h-[500px] rounded-full bg-gold/15 blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 translate-y-1/4 -translate-x-1/4 w-[450px] h-[450px] rounded-full bg-terracotta/10 blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                
+                <!-- Left Cozy Editorial Copy -->
+                <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-sand border border-gold/40 text-xs sm:text-sm font-medium text-espresso">
+                        <span class="w-2 h-2 rounded-full bg-sage"></span>
+                        <span>100% Waterproof &bull; Termite-Proof &bull; 1-Day Makeover</span>
+                    </div>
+
+                    <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-espresso leading-[1.12] tracking-tight">
+                        Wrap Your Walls in <span class="italic text-terracotta">Warmth</span> &amp; Timeless Elegance
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-espressoLight leading-relaxed max-w-xl mx-auto lg:mx-0">
+                        Elevate your living room, bedroom, and ceilings with luxury fluted WPC louvers, seamless UV marble sheets, and cozy wood-grain PVC panels—installed cleanly in hours, built to last for decades.
+                    </p>
+
+                    <!-- Dual CTAs -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#collections" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-terracotta hover:bg-terracottaDark text-white font-semibold text-sm sm:text-base shadow-cozy-lg transition-all duration-300 flex items-center justify-center">
+                            <span>Explore Collections</span>
+                            <i class="fa-solid fa-arrow-down-long ml-2.5"></i>
+                        </a>
+                        <button onclick="openWhatsAppInstantQuote()" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-sand hover:bg-sandDark text-espresso border border-espresso/15 font-semibold text-sm sm:text-base shadow-cozy transition-all duration-300 flex items-center justify-center cursor-pointer">
+                            <i class="fa-brands fa-whatsapp text-whatsapp text-xl mr-2.5"></i>
+                            <span>Instant WhatsApp Quote</span>
+                        </button>
+                    </div>
+
+                    <!-- Trust Metrics Bar -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-sandDark/80 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-espresso">500+</p>
+                            <p class="text-xs text-espressoLight mt-0.5">Cozy Designs</p>
+                        </div>
+                        <div>
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-espresso">10+ Yrs</p>
+                            <p class="text-xs text-espressoLight mt-0.5">Finish Warranty</p>
+                        </div>
+                        <div>
+                            <p class="font-serif text-2xl sm:text-3xl font-bold text-espresso">24 Hrs</p>
+                            <p class="text-xs text-espressoLight mt-0.5">Mess-Free Setup</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Cozy Showcase Card -->
+                <div class="lg:col-span-6">
+                    <div class="relative rounded-3xl overflow-hidden shadow-cozy-lg border-4 border-white bg-sand">
+                        <img 
+                            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" 
+                            onerror="this.onerror=null;this.src='https://placehold.co/900x700/F3ECE1/2C221E?text=Luxury+Fluted+Wood+Panel+Interior';"
+                            alt="Cozy Luxury Living Room with Wooden Fluted Panels and Ambient Cove Lighting" 
+                            class="w-full h-[380px] sm:h-[470px] object-cover"
+                        >
+                        <!-- Warm Ambient Gradient Overlay -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-espresso/75 via-espresso/15 to-transparent"></div>
+                        
+                        <!-- Floating Interior Tag Card -->
+                        <div class="absolute bottom-5 left-5 right-5 sm:bottom-7 sm:left-7 sm:right-7 bg-linen/95 backdrop-blur-md p-4 sm:p-5 rounded-2xl shadow-cozy border border-gold/30 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                            <div>
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-terracotta">Bestseller Makeover</span>
+                                <h2 class="font-serif text-lg sm:text-xl font-bold text-espresso">Warm Teak WPC Louvers + Backlit UV Marble</h2>
+                                <p class="text-xs text-espressoLight">Zero paint smell &bull; Damp-wall solution &bull; Starting ₹85/sq.ft</p>
+                            </div>
+                            <button onclick="inquireSpecificProduct('Warm Teak WPC Louvers + Backlit UV Marble', 'Signature Combo', 'Custom Wall Size', '₹85/sq.ft onwards')" class="shrink-0 px-4 py-2.5 rounded-xl bg-espresso hover:bg-terracotta text-white text-xs font-semibold transition flex items-center justify-center cursor-pointer">
+                                <i class="fa-brands fa-whatsapp text-whatsapp text-sm mr-1.5"></i>
+                                Ask Price
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 3. PRODUCT CATALOG WITH INDIVIDUAL WHATSAPP AUTOMATION ==================== -->
+    <section id="collections" class="py-16 sm:py-24 bg-sand/60 border-y border-sandDark/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Header -->
+            <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
+                <span class="text-xs font-bold uppercase tracking-widest text-terracotta">Curated Wall &amp; Ceiling Studio</span>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-espresso mt-2">
+                    Explore Our Signature Collections
+                </h2>
+                <p class="text-sm sm:text-base text-espressoLight mt-3">
+                    Tap <strong class="text-espresso">"Inquire on WhatsApp"</strong> on any design to automatically send its exact specifications to <span class="font-semibold text-espresso">+91 9012747714</span> for instant shade cards and best rates.
+                </p>
+            </div>
+
+            <!-- Interactive Category Filter Pills -->
+            <div id="category-filters" class="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 mb-10 sm:mb-12">
+                <button data-category="All" class="filter-btn active px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold bg-espresso text-linen shadow-cozy transition cursor-pointer">
+                    All Collections
+                </button>
+                <button data-category="Fluted WPC Louvers" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold bg-linen text-espressoLight hover:bg-sandDark/70 border border-sandDark transition cursor-pointer">
+                    Fluted WPC Louvers
+                </button>
+                <button data-category="PVC Wall Panels" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold bg-linen text-espressoLight hover:bg-sandDark/70 border border-sandDark transition cursor-pointer">
+                    PVC Wall Panels
+                </button>
+                <button data-category="UV Marble Sheets" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold bg-linen text-espressoLight hover:bg-sandDark/70 border border-sandDark transition cursor-pointer">
+                    UV Marble Sheets
+                </button>
+                <button data-category="Charcoal & Acoustic" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold bg-linen text-espressoLight hover:bg-sandDark/70 border border-sandDark transition cursor-pointer">
+                    Charcoal &amp; Acoustic
+                </button>
+                <button data-category="False Ceiling" class="filter-btn px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold bg-linen text-espressoLight hover:bg-sandDark/70 border border-sandDark transition cursor-pointer">
+                    False Ceiling
+                </button>
+            </div>
+
+            <!-- Product Grid (Rendered dynamically via JS with instant WhatsApp links) -->
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- Cards injected cleanly by JavaScript -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== 4. INTERACTIVE COZY ROOM COST & PANEL ESTIMATOR ==================== -->
+    <section id="estimator" class="py-16 sm:py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-sand rounded-3xl p-6 sm:p-10 lg:p-12 shadow-cozy-lg border border-gold/30">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                    
+                    <!-- Left Controls -->
+                    <div class="lg:col-span-7 space-y-6">
+                        <div>
+                            <span class="inline-flex items-center px-3.5 py-1 rounded-full bg-terracotta/15 text-terracotta text-xs font-bold uppercase tracking-wider">
+                                <i class="fa-solid fa-calculator mr-1.5"></i> Instant Budget Planner
+                            </span>
+                            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-espresso mt-2">
+                                Cozy Wall Cost &amp; Panel Estimator
+                            </h2>
+                            <p class="text-sm text-espressoLight mt-1.5">
+                                Enter your wall dimensions to calculate required panels (including 10% cutting allowance) and share the estimate directly with us on WhatsApp.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <!-- Wall Width -->
+                            <div>
+                                <label for="est-width" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                    Wall Width (in Feet)
+                                </label>
+                                <div class="relative">
+                                    <input type="number" id="est-width" value="12" min="1" max="200" step="0.5"
+                                        class="w-full px-4 py-3.5 rounded-2xl bg-linen border border-sandDark text-espresso font-semibold focus:outline-none focus:border-terracotta transition">
+                                    <span class="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-semibold text-espressoLight">ft</span>
+                                </div>
+                            </div>
+
+                            <!-- Wall Height -->
+                            <div>
+                                <label for="est-height" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                    Wall Height (in Feet)
+                                </label>
+                                <div class="relative">
+                                    <input type="number" id="est-height" value="10" min="1" max="100" step="0.5"
+                                        class="w-full px-4 py-3.5 rounded-2xl bg-linen border border-sandDark text-espresso font-semibold focus:outline-none focus:border-terracotta transition">
+                                    <span class="absolute right-4 top-1/2 -translate-y-1/2 text-xs font-semibold text-espressoLight">ft</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <!-- Panel Style -->
+                            <div>
+                                <label for="est-style" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                    Select Panel Collection
+                                </label>
+                                <select id="est-style" class="w-full px-4 py-3.5 rounded-2xl bg-linen border border-sandDark text-espresso font-medium focus:outline-none focus:border-terracotta transition">
+                                    <option value="pvc" data-name="PVC Wall Panel (10in x 9.5ft)" data-coverage="7.9" data-mat-min="55" data-mat-max="75" data-inst-min="85" data-inst-max="110">
+                                        PVC Wall Panel (₹55 – ₹110/sq.ft)
+                                    </option>
+                                    <option value="wpc" selected data-name="Fluted WPC Louver (6in x 9.5ft)" data-coverage="4.75" data-mat-min="115" data-mat-max="155" data-inst-min="160" data-inst-max="210">
+                                        Fluted WPC Louvers (₹115 – ₹210/sq.ft)
+                                    </option>
+                                    <option value="uv" data-name="UV Marble Sheet (8ft x 4ft)" data-coverage="32" data-mat-min="95" data-mat-max="130" data-inst-min="135" data-inst-max="175">
+                                        UV Marble Sheet (₹95 – ₹175/sq.ft)
+                                    </option>
+                                    <option value="charcoal" data-name="Charcoal & Acoustic Panel (8ft x 1ft)" data-coverage="8" data-mat-min="145" data-mat-max="195" data-inst-min="190" data-inst-max="250">
+                                        Charcoal &amp; Acoustic (₹145 – ₹250/sq.ft)
+                                    </option>
+                                </select>
+                            </div>
+
+                            <!-- Installation Option -->
+                            <div>
+                                <label for="est-install" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                    Service Package
+                                </label>
+                                <select id="est-install" class="w-full px-4 py-3.5 rounded-2xl bg-linen border border-sandDark text-espresso font-medium focus:outline-none focus:border-terracotta transition">
+                                    <option value="complete" selected>Supply + Expert Installation</option>
+                                    <option value="material">Material Supply Only</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Live Summary Card -->
+                    <div class="lg:col-span-5">
+                        <div class="bg-espresso text-linen rounded-3xl p-6 sm:p-8 shadow-cozy-lg border border-gold/40 space-y-6">
+                            <div class="flex items-center justify-between border-b border-white/10 pb-4">
+                                <span class="text-xs font-bold uppercase tracking-widest text-gold">Estimated Summary</span>
+                                <span class="text-xs bg-white/10 px-3 py-1 rounded-full text-sand">Includes 10% Wastage</span>
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-white/5 rounded-2xl p-4">
+                                    <p class="text-xs text-sand/80">Total Wall Area</p>
+                                    <p id="res-area" class="font-serif text-2xl sm:text-3xl font-bold text-white mt-1">120 sq.ft</p>
+                                </div>
+                                <div class="bg-white/5 rounded-2xl p-4">
+                                    <p class="text-xs text-sand/80">Est. Panels Needed</p>
+                                    <p id="res-panels" class="font-serif text-2xl sm:text-3xl font-bold text-gold mt-1">28 Panels</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-white/5 rounded-2xl p-5 border border-gold/25">
+                                <p class="text-xs text-sand/80">Estimated Budget Range</p>
+                                <p id="res-price" class="font-serif text-3xl sm:text-4xl font-bold text-white mt-1">₹19,200 – ₹25,200</p>
+                                <p id="res-package-label" class="text-xs text-gold mt-1.5">Includes Panels, Adhesives, Trims &amp; Installation</p>
+                            </div>
+
+                            <!-- Automated WhatsApp Send Estimate Button -->
+                            <button onclick="sendEstimateOnWhatsApp()" class="w-full py-4 px-6 rounded-2xl bg-whatsapp hover:bg-whatsappDark text-white font-bold text-sm sm:text-base shadow-lg transition-all duration-300 flex items-center justify-center cursor-pointer">
+                                <i class="fa-brands fa-whatsapp text-xl mr-2.5"></i>
+                                <span>Send This Estimate on WhatsApp</span>
+                            </button>
+                            <p class="text-[11px] text-center text-sand/70">
+                                Directly connects to <strong class="text-white">+91 9012747714</strong> with your exact wall measurements.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 5. COZY CRAFTSMANSHIP / WHY CHOOSE US ==================== -->
+    <section id="why-us" class="py-16 sm:py-24 bg-sand/50 border-y border-sandDark/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+                <span class="text-xs font-bold uppercase tracking-widest text-sage">The Shree Bankey Bihari Promise</span>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-espresso mt-2">
+                    Crafted for Comfort, Built for Indian Homes
+                </h2>
+                <p class="text-sm sm:text-base text-espressoLight mt-3">
+                    Say goodbye to damp walls, peeling paint, and termite damage. Our architectural panels combine natural warmth with modern durability.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Feature 1 -->
+                <div class="bg-linen rounded-3xl p-7 shadow-cozy border border-sandDark/80 card-hover">
+                    <div class="w-14 h-14 rounded-2xl bg-sage/15 text-sage flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-droplet-slash"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-bold text-espresso mb-2">100% Waterproof &amp; Termite Proof</h3>
+                    <p class="text-sm text-espressoLight leading-relaxed">
+                        Ideal for damp monsoon walls and coastal humidity. Completely immune to seepage, mold, and wood-boring termites.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-linen rounded-3xl p-7 shadow-cozy border border-sandDark/80 card-hover">
+                    <div class="w-14 h-14 rounded-2xl bg-terracotta/15 text-terracotta flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-bold text-espresso mb-2">Mess-Free 1-Day Installation</h3>
+                    <p class="text-sm text-espressoLight leading-relaxed">
+                        Interlocking tongue-and-groove system installs directly over existing plaster or tiles with zero dust, noise, or paint fumes.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-linen rounded-3xl p-7 shadow-cozy border border-sandDark/80 card-hover">
+                    <div class="w-14 h-14 rounded-2xl bg-gold/20 text-espresso flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-volume-low"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-bold text-espresso mb-2">Fire-Retardant &amp; Acoustic</h3>
+                    <p class="text-sm text-espressoLight leading-relaxed">
+                        High-density WPC and charcoal fluted profiles absorb room echo for a peaceful living room or bedroom sanctuary.
+                    </p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-linen rounded-3xl p-7 shadow-cozy border border-sandDark/80 card-hover">
+                    <div class="w-14 h-14 rounded-2xl bg-espresso/10 text-espresso flex items-center justify-center text-2xl mb-5">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="font-serif text-2xl font-bold text-espresso mb-2">10+ Years Finish Warranty</h3>
+                    <p class="text-sm text-espressoLight leading-relaxed">
+                        Scratch-resistant German foil lamination ensures rich walnut, teak, and marble textures stay vibrant without polishing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 6. CURATED INTERIOR INSPIRATION GALLERY WITH LIGHTBOX ==================== -->
+    <section id="gallery" class="py-16 sm:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-terracotta">Real Home Transformations</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-espresso mt-2">
+                        Curated Interior Inspiration
+                    </h2>
+                </div>
+                <p class="text-sm text-espressoLight max-w-md">
+                    Click any room showcase to inspect design details and request the exact same setup on WhatsApp.
+                </p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Gallery items rendered via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 7. DIRECT QUERY & FREE HOME VISIT BOOKING (WHATSAPP AUTOMATION) ==================== -->
+    <section id="contact" class="py-16 sm:py-24 bg-sand/70 border-t border-sandDark">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+                
+                <!-- Left Store Details & Direct WhatsApp Concierge -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-widest text-terracotta">Visit Or Book Free Sample Demo</span>
+                        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-espresso mt-2">
+                            Let’s Design Your Cozy Space Together
+                        </h2>
+                        <p class="text-sm sm:text-base text-espressoLight mt-3 leading-relaxed">
+                            Fill out the quick query form or tap below to chat directly with our interior specialist. We bring physical PVC, WPC, and UV Marble shade catalogs right to your doorstep.
+                        </p>
+                    </div>
+
+                    <!-- Contact Cards -->
+                    <div class="space-y-4">
+                        <a href="https://wa.me/919762307714?text=Hello%20Shree%20Bankey%20Bihari%20PVC%20Panel%20%26%20Decor!%20I%20would%20like%20to%20inquire%20about%20wall%20panels." target="_blank" rel="noopener"
+                           class="flex items-center p-4 rounded-2xl bg-linen border border-sandDark hover:border-whatsapp shadow-cozy transition group">
+                            <div class="w-12 h-12 rounded-xl bg-whatsapp/15 text-whatsapp group-hover:bg-whatsapp group-hover:text-white flex items-center justify-center text-2xl transition">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-espressoLight">Direct WhatsApp &amp; Call</p>
+                                <p class="text-lg font-bold text-espresso">+91 9012747714</p>
+                            </div>
+                        </a>
+
+                        <div class="flex items-center p-4 rounded-2xl bg-linen border border-sandDark shadow-cozy">
+                            <div class="w-12 h-12 rounded-xl bg-terracotta/15 text-terracotta flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-espressoLight">Showroom &amp; Consultation Hours</p>
+                                <p class="text-sm font-bold text-espresso">Mon – Sun: 10:00 AM – 8:30 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center p-4 rounded-2xl bg-linen border border-sandDark shadow-cozy">
+                            <div class="w-12 h-12 rounded-xl bg-sage/15 text-sage flex items-center justify-center text-xl">
+                                <i class="fa-solid fa-house-chimney-window"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-xs font-semibold uppercase tracking-wider text-espressoLight">Doorstep Service</p>
+                                <p class="text-sm font-bold text-espresso">Free Wall Measurement &amp; Physical Shade Book</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Direct Query Form (Automated WhatsApp Redirect) -->
+                <div class="lg:col-span-7">
+                    <div class="bg-linen rounded-3xl p-6 sm:p-10 shadow-cozy-lg border border-gold/30">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-espresso">
+                                Direct Query &amp; Free Visit Booking
+                            </h3>
+                            <span class="hidden sm:inline-flex items-center text-xs font-semibold text-sage bg-sage/10 px-3 py-1.5 rounded-full">
+                                <i class="fa-solid fa-bolt mr-1.5"></i> Instant WhatsApp Delivery
+                            </span>
+                        </div>
+
+                        <form id="direct-query-form" class="space-y-5">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="q-name" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                        Full Name *
+                                    </label>
+                                    <input type="text" id="q-name" required placeholder="e.g. Aarav Sharma"
+                                        class="w-full px-4 py-3.5 rounded-2xl bg-sand/60 border border-sandDark text-espresso placeholder-espressoLight/60 focus:outline-none focus:border-terracotta focus:bg-white transition">
+                                </div>
+
+                                <div>
+                                    <label for="q-city" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                        City / Locality *
+                                    </label>
+                                    <input type="text" id="q-city" required placeholder="e.g. Vrindavan / Mathura / Sector 18"
+                                        class="w-full px-4 py-3.5 rounded-2xl bg-sand/60 border border-sandDark text-espresso placeholder-espressoLight/60 focus:outline-none focus:border-terracotta focus:bg-white transition">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label for="q-project" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                        Project Type
+                                    </label>
+                                    <select id="q-project" class="w-full px-4 py-3.5 rounded-2xl bg-sand/60 border border-sandDark text-espresso font-medium focus:outline-none focus:border-terracotta focus:bg-white transition">
+                                        <option value="Living Room / TV Unit">Living Room / TV Unit</option>
+                                        <option value="Bedroom Headboard Wall">Bedroom Headboard Wall</option>
+                                        <option value="False Ceiling & Rafters">False Ceiling &amp; Rafters</option>
+                                        <option value="Office / Showroom">Office / Showroom</option>
+                                        <option value="Full Home Makeover">Full Home Makeover</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label for="q-panel" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                        Preferred Panel Style
+                                    </label>
+                                    <select id="q-panel" class="w-full px-4 py-3.5 rounded-2xl bg-sand/60 border border-sandDark text-espresso font-medium focus:outline-none focus:border-terracotta focus:bg-white transition">
+                                        <option value="Fluted WPC Louvers">Fluted WPC Louvers</option>
+                                        <option value="PVC Wall Panels">PVC Wall Panels</option>
+                                        <option value="UV Marble Sheets">UV Marble Sheets</option>
+                                        <option value="Charcoal & Acoustic Panels">Charcoal &amp; Acoustic Panels</option>
+                                        <option value="Ceiling Panels & Wooden Rafters">Ceiling Panels &amp; Wooden Rafters</option>
+                                        <option value="Need Expert Suggestion">Not Sure — Need Expert Suggestion</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="q-message" class="block text-xs font-bold uppercase tracking-wider text-espresso mb-2">
+                                    Custom Message / Approximate Wall Size (Optional)
+                                </label>
+                                <textarea id="q-message" rows="3" placeholder="Tell us about your wall size, damp wall issue, or preferred wood/marble shade..."
+                                    class="w-full px-4 py-3.5 rounded-2xl bg-sand/60 border border-sandDark text-espresso placeholder-espressoLight/60 focus:outline-none focus:border-terracotta focus:bg-white transition"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 px-6 rounded-2xl bg-whatsapp hover:bg-whatsappDark text-white font-bold text-base shadow-cozy-lg transition-all duration-300 flex items-center justify-center cursor-pointer">
+                                <i class="fa-brands fa-whatsapp text-2xl mr-2.5"></i>
+                                <span>Send Direct Query on WhatsApp</span>
+                            </button>
+
+                            <p class="text-xs text-center text-espressoLight">
+                                Clicking above automatically formats your details and opens WhatsApp chat with <strong class="text-espresso">+91 9012747714</strong>.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-espresso text-sand/85 pt-14 pb-24 sm:pb-14">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-white/10">
+                <div>
+                    <h3 class="font-serif text-2xl font-bold text-white">Shree Bankey Bihari</h3>
+                    <p class="text-xs uppercase tracking-widest text-gold mt-1">PVC Panel &amp; Decor</p>
+                    <p class="text-sm text-sand/75 mt-4 leading-relaxed">
+                        Bringing warmth, acoustic serenity, and luxury architectural finishes to modern homes with waterproof PVC panels, WPC louvers, and UV marble sheets.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-serif text-xl font-bold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li><a href="#collections" class="hover:text-gold transition">Fluted WPC &amp; PVC Catalog</a></li>
+                        <li><a href="#estimator" class="hover:text-gold transition">Wall Cost &amp; Panel Calculator</a></li>
+                        <li><a href="#gallery" class="hover:text-gold transition">Interior Project Gallery</a></li>
+                        <li><a href="#contact" class="hover:text-gold transition">Book Free Doorstep Measurement</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-serif text-xl font-bold text-white mb-4">Direct WhatsApp Desk</h4>
+                    <p class="text-sm text-sand/75 mb-4">
+                        Need urgent shade cards or wholesale/retail rates? Message us directly:
+                    </p>
+                    <button onclick="openWhatsAppGeneral()" class="inline-flex items-center px-5 py-3 rounded-2xl bg-whatsapp hover:bg-whatsappDark text-white font-semibold text-sm transition cursor-pointer">
+                        <i class="fa-brands fa-whatsapp text-lg mr-2"></i>
+                        +91 9012747714
+                    </button>
+                </div>
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-sand/60 gap-4">
+                <p>&copy; <span id="current-year"></span> Shree Bankey Bihari PVC Panel &amp; Decor. All rights reserved.</p>
+                <p>Waterproof &bull; Termite-Proof &bull; Artisanal Wall &amp; Ceiling Solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== 8. FLOATING WHATSAPP CONCIERGE BUTTON ==================== -->
+    <div class="fixed bottom-5 right-5 z-50 flex items-center space-x-3 group">
+        <span class="hidden sm:inline-block bg-espresso text-linen text-xs font-semibold px-3.5 py-2 rounded-xl shadow-cozy-lg border border-gold/30 opacity-95 group-hover:opacity-100 transition">
+            Ask us on WhatsApp
+        </span>
+        <button onclick="openWhatsAppGeneral()" aria-label="Chat on WhatsApp" class="relative wa-pulse w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-whatsapp hover:bg-whatsappDark text-white shadow-2xl flex items-center justify-center text-3xl transition-transform duration-300 hover:scale-105 cursor-pointer">
+            <i class="fa-brands fa-whatsapp"></i>
+        </button>
+    </div>
+
+    <!-- ==================== LIGHTBOX MODAL FOR GALLERY ==================== -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 hidden bg-espresso/90 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="relative bg-linen rounded-3xl max-w-3xl w-full overflow-hidden shadow-2xl border border-gold/40">
+            <button onclick="closeLightbox()" aria-label="Close Preview" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-espresso/80 hover:bg-terracotta text-white flex items-center justify-center transition cursor-pointer">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+            <img id="lb-image" src="" alt="Interior Preview" class="w-full h-[300px] sm:h-[440px] object-cover">
+            <div class="p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                    <span id="lb-tag" class="text-xs font-bold uppercase tracking-widest text-terracotta">Living Room</span>
+                    <h3 id="lb-title" class="font-serif text-2xl sm:text-3xl font-bold text-espresso mt-1">Warm Walnut TV Accent Wall</h3>
+                    <p id="lb-desc" class="text-sm text-espressoLight mt-1">Crafted using 6-inch fluted WPC louvers paired with warm LED profile lighting.</p>
+                </div>
+                <button id="lb-wa-btn" class="shrink-0 px-6 py-3.5 rounded-2xl bg-whatsapp hover:bg-whatsappDark text-white font-bold text-sm shadow-lg transition flex items-center justify-center cursor-pointer">
+                    <i class="fa-brands fa-whatsapp text-lg mr-2"></i>
+                    Get This Look on WhatsApp
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== JAVASCRIPT: AUTOMATION, CATALOG & ESTIMATOR ==================== -->
+    <script>
+        // Master WhatsApp Number (9012747714 with India country code 91)
+        const WHATSAPP_NUMBER = "919012747714";
+
+        /**
+         * Core Helper to open WhatsApp with properly encoded text
+         */
+        function triggerWhatsApp(message) {
+            const encodedMsg = encodeURIComponent(message);
+            const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMsg}`;
+            window.open(url, "_blank", "noopener,noreferrer");
+        }
+
+        // 1. General WhatsApp Chat
+        function openWhatsAppGeneral() {
+            const msg = "Hello Shree Bankey Bihari PVC Panel & Decor! I visited your website and would like to explore your wall panel & interior decor designs.";
+            triggerWhatsApp(msg);
+        }
+
+        // 2. Hero Instant Quote WhatsApp
+        function openWhatsAppInstantQuote() {
+            const msg = "Hello Shree Bankey Bihari PVC Panel & Decor! I would like an *Instant Quote* for my wall/ceiling makeover. Please share your latest catalog and rates.";
+            triggerWhatsApp(msg);
+        }
+
+        // 3. Individual Product WhatsApp Inquiry Automation
+        function inquireSpecificProduct(name, category, specs, price) {
+            const msg = `Hello Shree Bankey Bihari PVC Panel & Decor! I am interested in *${name}* (${category} - ${specs}, starting ${price}). Please share catalog designs, available shades, and best rates.`;
+            triggerWhatsApp(msg);
+        }
+
+        // ==================== PRODUCT CATALOG DATA ====================
+        const products = [
+            {
+                id: 1,
+                name: "Royal Burmese Teak WPC Louvers",
+                category: "Fluted WPC Louvers",
+                specs: "9.5 ft × 6 in (24mm Deep Groove)",
+                price: "₹120 / sq.ft",
+                badge: "Bestseller",
+                badgeColor: "bg-terracotta text-white",
+                image: "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=800&q=80",
+                description: "Rich natural teak wood grain with deep architectural flutes for cozy TV units and living room feature walls."
+            },
+            {
+                id: 2,
+                name: "Warm Oat & Linen Matte PVC Panel",
+                category: "PVC Wall Panels",
+                specs: "9.5 ft × 10 in (Heavy 8mm)",
+                price: "₹60 / sq.ft",
+                badge: "Damp-Wall Proof",
+                badgeColor: "bg-sage text-white",
+                image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80",
+                description: "Soft fabric-textured warm beige PVC wall cladding that instantly brightens bedrooms and hides wall dampness."
+            },
+            {
+                id: 3,
+                name: "Statuario Gold Vein UV Marble Sheet",
+                category: "UV Marble Sheets",
+                specs: "8 ft × 4 ft (3.2mm High-Gloss)",
+                price: "₹2,950 / sheet",
+                badge: "Luxury Gloss",
+                badgeColor: "bg-espresso text-gold",
+                image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+                description: "Mirror-finish Italian marble look without heavy stone weight. Ideal for backlit mandirs, foyers, and TV backdrops."
+            },
+            {
+                id: 4,
+                name: "Smoked Walnut Acoustic Slat Panel",
+                category: "Charcoal & Acoustic",
+                specs: "8 ft × 1 ft (Felt-Backed Acoustic)",
+                price: "₹165 / sq.ft",
+                badge: "Sound Absorbing",
+                badgeColor: "bg-espresso text-white",
+                image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80",
+                description: "Dark espresso walnut slats mounted on acoustic felt to eliminate room echo in home theaters and master bedrooms."
+            },
+            {
+                id: 5,
+                name: "Golden Oak Wooden Ceiling Rafters",
+                category: "False Ceiling",
+                specs: "9.5 ft × 4 in × 2 in Baffle",
+                price: "₹140 / sq.ft",
+                badge: "Warm Ceiling",
+                badgeColor: "bg-terracotta text-white",
+                image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+                description: "Lightweight interlocking timber-look rafters designed for cozy living room ceilings and warm cove lighting strips."
+            },
+            {
+                id: 6,
+                name: "Terracotta Ribbed Charcoal Louver",
+                category: "Charcoal & Acoustic",
+                specs: "8 ft × 5 in (High-Density Charcoal)",
+                price: "₹155 / sq.ft",
+                badge: "Trending 2026",
+                badgeColor: "bg-sage text-white",
+                image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=800&q=80",
+                description: "Earthy clay-toned micro-fluted charcoal molding that brings warm Mediterranean coziness to accent pillars."
+            },
+            {
+                id: 7,
+                name: "Classic Honey Cedar PVC Wall Plank",
+                category: "PVC Wall Panels",
+                specs: "9.5 ft × 10 in (Super Heavy)",
+                price: "₹65 / sq.ft",
+                badge: "Budget Favorite",
+                badgeColor: "bg-espresso text-gold",
+                image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+                description: "Warm honey-wood finish PVC planks with seamless V-groove joinery for quick 1-day bedroom and hallway makeovers."
+            },
+            {
+                id: 8,
+                name: "Breccia Warm Onyx Backlit Sheet",
+                category: "UV Marble Sheets",
+                specs: "8 ft × 4 ft (Translucent Onyx)",
+                price: "₹3,400 / sheet",
+                badge: "LED Backlit Ready",
+                badgeColor: "bg-terracotta text-white",
+                image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+                description: "Warm amber-veined onyx sheet crafted to glow softly when paired with warm-white LED strip backlighting."
+            },
+            {
+                id: 9,
+                name: "Ivory & Gold Inlay PVC Ceiling Grid",
+                category: "False Ceiling",
+                specs: "9.5 ft × 10 in (Metallic Trim)",
+                price: "₹75 / sq.ft",
+                badge: "100% Waterproof",
+                badgeColor: "bg-sage text-white",
+                image: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=800&q=80",
+                description: "Clean matte ivory ceiling panels accented with brushed champagne-gold grooves for bright, airy rooms."
+            }
+        ];
+
+        // Render Product Catalog
+        function renderProducts(filterCategory = "All") {
+            const grid = document.getElementById("product-grid");
+            const filtered = filterCategory === "All" 
+                ? products 
+                : products.filter(p => p.category === filterCategory);
+
+            grid.innerHTML = filtered.map(item => `
+                <article class="bg-linen rounded-3xl overflow-hidden shadow-cozy border border-sandDark/90 flex flex-col justify-between card-hover">
+                    <div>
+                        <div class="relative h-56 overflow-hidden bg-sand">
+                            <img 
+                                src="${item.image}" 
+                                onerror="this.onerror=null;this.src='https://placehold.co/600x450/F3ECE1/2C221E?text=${encodeURIComponent(item.name)}';"
+                                alt="${item.name}" 
+                                class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                            >
+                            <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-[11px] font-bold tracking-wide shadow ${item.badgeColor}">
+                                ${item.badge}
+                            </span>
+                            <span class="absolute bottom-3 right-3 px-3 py-1 rounded-xl bg-espresso/85 backdrop-blur-sm text-linen text-xs font-bold">
+                                ${item.price}
+                            </span>
+                        </div>
+
+                        <div class="p-6">
+                            <div class="flex items-center justify-between text-xs font-semibold text-terracotta mb-1.5">
+                                <span>${item.category}</span>
+                                <span class="text-sage"><i class="fa-solid fa-shield-halved mr-1"></i>Waterproof</span>
+                            </div>
+                            <h3 class="font-serif text-2xl font-bold text-espresso leading-snug">
+                                ${item.name}
+                            </h3>
+                            <p class="text-xs font-medium text-espressoLight bg-sand/80 inline-block px-2.5 py-1 rounded-lg mt-2">
+                                <i class="fa-solid fa-ruler-combined mr-1 text-terracotta"></i> ${item.specs}
+                            </p>
+                            <p class="text-sm text-espressoLight mt-3 leading-relaxed">
+                                ${item.description}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="px-6 pb-6 pt-2 flex flex-col gap-2.5">
+                        <!-- Dedicated Direct WhatsApp Query Button for Every Product -->
+                        <button 
+                            onclick="inquireSpecificProduct('${item.name.replace(/'/g, "\\'")}', '${item.category}', '${item.specs}', '${item.price}')"
+                            class="w-full py-3.5 px-4 rounded-2xl bg-whatsapp hover:bg-whatsappDark text-white font-bold text-sm shadow-md transition-all duration-200 flex items-center justify-center cursor-pointer"
+                        >
+                            <i class="fa-brands fa-whatsapp text-lg mr-2"></i>
+                            <span>Inquire on WhatsApp</span>
+                        </button>
+                    </div>
+                </article>
+            `).join("");
+        }
+
+        // Category Filter Click Handlers
+        document.querySelectorAll(".filter-btn").forEach(btn => {
+            btn.addEventListener("click", () => {
+                document.querySelectorAll(".filter-btn").forEach(b => {
+                    b.classList.remove("active", "bg-espresso", "text-linen", "shadow-cozy");
+                    b.classList.add("bg-linen", "text-espressoLight", "border", "border-sandDark");
+                });
+                btn.classList.add("active", "bg-espresso", "text-linen", "shadow-cozy");
+                btn.classList.remove("bg-linen", "text-espressoLight", "border", "border-sandDark");
+                
+                renderProducts(btn.dataset.category);
+            });
+        });
+
+        // ==================== LIVE COST & PANEL ESTIMATOR ====================
+        const widthInput = document.getElementById("est-width");
+        const heightInput = document.getElementById("est-height");
+        const styleSelect = document.getElementById("est-style");
+        const installSelect = document.getElementById("est-install");
+
+        let currentEstimateState = {};
+
+        function calculateEstimate() {
+            const width = Math.max(1, parseFloat(widthInput.value) || 0);
+            const height = Math.max(1, parseFloat(heightInput.value) || 0);
+            const area = Math.round(width * height * 10) / 10;
+
+            const selectedOption = styleSelect.options[styleSelect.selectedIndex];
+            const panelName = selectedOption.dataset.name;
+            const coverage = parseFloat(selectedOption.dataset.coverage);
+            const isComplete = installSelect.value === "complete";
+
+            const rateMin = parseFloat(isComplete ? selectedOption.dataset.instMin : selectedOption.dataset.matMin);
+            const rateMax = parseFloat(isComplete ? selectedOption.dataset.instMax : selectedOption.dataset.matMax);
+
+            // Include 10% cutting wastage buffer
+            const panelsNeeded = Math.max(1, Math.ceil((area * 1.10) / coverage));
+            const totalMin = Math.round(area * rateMin);
+            const totalMax = Math.round(area * rateMax);
+
+            document.getElementById("res-area").textContent = `${area} sq.ft`;
+            document.getElementById("res-panels").textContent = `${panelsNeeded} ${styleSelect.value === 'uv' ? 'Sheets' : 'Panels'}`;
+            document.getElementById("res-price").textContent = `₹${totalMin.toLocaleString('en-IN')} – ₹${totalMax.toLocaleString('en-IN')}`;
+            document.getElementById("res-package-label").textContent = isComplete 
+                ? "Includes Panels, Adhesives, Trims & Expert Installation" 
+                : "Material Only (Panels + Matching Moulding Trims)";
+
+            currentEstimateState = {
+                width,
+                height,
+                area,
+                panelName,
+                panelsNeeded,
+                unitLabel: styleSelect.value === 'uv' ? 'Sheets' : 'Panels',
+                serviceType: isComplete ? "Complete Supply + Installation" : "Material Supply Only",
+                budgetRange: `₹${totalMin.toLocaleString('en-IN')} – ₹${totalMax.toLocaleString('en-IN')}`
+            };
+        }
+
+        [widthInput, heightInput, styleSelect, installSelect].forEach(el => {
+            el.addEventListener("input", calculateEstimate);
+            el.addEventListener("change", calculateEstimate);
+        });
+
+        function sendEstimateOnWhatsApp() {
+            const e = currentEstimateState;
+            const msg = `Hello Shree Bankey Bihari PVC Panel & Decor! I calculated a wall estimate on your website:\n\n` +
+                        `• *Wall Dimensions:* ${e.width} ft × ${e.height} ft (${e.area} sq.ft)\n` +
+                        `• *Selected Style:* ${e.panelName}\n` +
+                        `• *Estimated Quantity:* ~${e.panelsNeeded} ${e.unitLabel} (incl. 10% wastage)\n` +
+                        `• *Service Package:* ${e.serviceType}\n` +
+                        `• *Estimated Budget:* ${e.budgetRange}\n\n` +
+                        `Please share shade options and confirm final quotation.`;
+            triggerWhatsApp(msg);
+        }
+
+        // ==================== INSPIRATION GALLERY & LIGHTBOX ====================
+        const galleryItems = [
+            {
+                title: "Warm Teak Fluted TV Console Wall",
+                tag: "Living Room Makeover",
+                desc: "Vertical Burmese teak WPC louvers paired with a Statuario UV marble center slab and warm hidden LED strips.",
+                image: "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=900&q=80"
+            },
+            {
+                title: "Cozy Walnut Bedroom Headboard Wall",
+                tag: "Master Bedroom",
+                desc: "Floor-to-ceiling acoustic walnut slats creating a warm, hotel-inspired sanctuary behind the bed.",
+                image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=80"
+            },
+            {
+                title: "Architectural Wooden Rafter Ceiling",
+                tag: "False Ceiling",
+                desc: "Lightweight oak PVC baffle rafters installed over an existing ceiling in just 6 hours with zero dust.",
+                image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
+            },
+            {
+                title: "Backlit Onyx Puja & Mandir Backdrop",
+                tag: "Sacred Corner",
+                desc: "Translucent warm amber UV marble sheet with CNC-cut jaali borders and serene warm-white backlighting.",
+                image: "https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=900&q=80"
+            },
+            {
+                title: "Dining Room Charcoal & Linen Accent",
+                tag: "Dining & Foyer",
+                desc: "Combination of soft sand matte PVC panels and ribbed charcoal trims for a cozy, stain-resistant dining space.",
+                image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=900&q=80"
+            },
+            {
+                title: "Boutique Office & Reception Feature Wall",
+                tag: "Commercial Decor",
+                desc: "High-durability fluted WPC paneling with integrated brass T-profiles for an inviting client lounge.",
+                image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80"
+            }
+        ];
+
+        function renderGallery() {
+            const gGrid = document.getElementById("gallery-grid");
+            gGrid.innerHTML = galleryItems.map((item, idx) => `
+                <div onclick="openLightbox(${idx})" class="group relative rounded-3xl overflow-hidden shadow-cozy cursor-pointer bg-sand h-72 sm:h-80 border border-sandDark">
+                    <img 
+                        src="${item.image}" 
+                        onerror="this.onerror=null;this.src='https://placehold.co/800x600/F3ECE1/2C221E?text=${encodeURIComponent(item.title)}';"
+                        alt="${item.title}" 
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-espresso/85 via-espresso/20 to-transparent opacity-90 group-hover:opacity-100 transition"></div>
+                    <div class="absolute bottom-5 left-5 right-5 text-white">
+                        <span class="text-[11px] font-bold uppercase tracking-widest text-gold">${item.tag}</span>
+                        <h3 class="font-serif text-xl sm:text-2xl font-bold mt-0.5 leading-snug">${item.title}</h3>
+                        <span class="inline-flex items-center text-xs text-sand/90 mt-2 group-hover:text-whatsapp transition">
+                            <i class="fa-solid fa-expand mr-1.5"></i> Tap to inspect &amp; get quote
+                        </span>
+                    </div>
+                </div>
+            `).join("");
+        }
+
+        function openLightbox(index) {
+            const item = galleryItems[index];
+            document.getElementById("lb-image").src = item.image;
+            document.getElementById("lb-tag").textContent = item.tag;
+            document.getElementById("lb-title").textContent = item.title;
+            document.getElementById("lb-desc").textContent = item.desc;
+            
+            document.getElementById("lb-wa-btn").onclick = () => {
+                const msg = `Hello Shree Bankey Bihari PVC Panel & Decor! I loved the *"${item.title}"* (${item.tag}) design from your inspiration gallery. Please share details and pricing for a similar look.`;
+                triggerWhatsApp(msg);
+            };
+
+            document.getElementById("lightbox-modal").classList.remove("hidden");
+        }
+
+        function closeLightbox() {
+            document.getElementById("lightbox-modal").classList.add("hidden");
+        }
+
+        // Close lightbox when clicking backdrop
+        document.getElementById("lightbox-modal").addEventListener("click", (e) => {
+            if (e.target.id === "lightbox-modal") closeLightbox();
+        });
+
+        // ==================== DIRECT QUERY FORM WHATSAPP AUTOMATION ====================
+        document.getElementById("direct-query-form").addEventListener("submit", function(e) {
+            e.preventDefault();
+            const name = document.getElementById("q-name").value.trim();
+            const city = document.getElementById("q-city").value.trim();
+            const project = document.getElementById("q-project").value;
+            const panel = document.getElementById("q-panel").value;
+            const customMsg = document.getElementById("q-message").value.trim();
+
+            let msg = `Hello Shree Bankey Bihari PVC Panel & Decor! I would like to submit a direct project inquiry:\n\n` +
+                      `• *Name:* ${name}\n` +
+                      `• *City / Locality:* ${city}\n` +
+                      `• *Project Type:* ${project}\n` +
+                      `• *Preferred Panel Style:* ${panel}\n`;
+
+            if (customMsg) {
+                msg += `• *Notes / Wall Size:* ${customMsg}\n`;
+            }
+
+            msg += `\nPlease share shade catalogs and arrange a consultation/quote.`;
+            triggerWhatsApp(msg);
+        });
+
+        // ==================== MOBILE NAVIGATION & INIT ====================
+        const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const mobileMenuIcon = document.getElementById("menu-icon");
+
+        mobileMenuToggle.addEventListener("click", () => {
+            const isHidden = mobileMenu.classList.toggle("hidden");
+            mobileMenuIcon.className = isHidden ? "fa-solid fa-bars text-lg" : "fa-solid fa-xmark text-lg";
+        });
+
+        document.querySelectorAll(".mobile-nav-link").forEach(link => {
+            link.addEventListener("click", () => {
+                mobileMenu.classList.add("hidden");
+                mobileMenuIcon.className = "fa-solid fa-bars text-lg";
+            });
+        });
+
+        // Initialize Page
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+        renderProducts("All");
+        renderGallery();
+        calculateEstimate();
+    </script>
+</body>
+</html>
